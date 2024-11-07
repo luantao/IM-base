@@ -1,10 +1,9 @@
-package curl
+package http
 
 import (
 	"context"
 	"encoding/json"
-	"github.com/luantao/IM-base/config"
-	"github.com/luantao/IM-base/http"
+	"github.com/luantao/IM-base/pkg/config"
 	"github.com/luantao/IM-base/pkg/mlog"
 	"go.uber.org/zap"
 	"strings"
@@ -16,7 +15,7 @@ func (this *MethodData) LoadConfig(ctx context.Context, conf string) (err error)
 	this.Url = config.GetString(strings.Join([]string{conf, "url"}, "."))
 	this.Timeout = config.GetInt64(strings.Join([]string{conf, "timeout"}, "."))
 	this.RetryCount = config.GetInt(strings.Join([]string{conf, "retry"}, "."))
-	this.Limit = http.Limit().Config(strings.Join([]string{conf, "limiter"}, "."))
+	this.Limit = Limit().Config(strings.Join([]string{conf, "limiter"}, "."))
 	return
 }
 
@@ -39,7 +38,7 @@ func (this *MethodData) PostJson(ctx context.Context, param interface{}, respons
 	if _, ok := this.Header["Content-Type"]; !ok {
 		this.Header["Content-Type"] = "application/json"
 	}
-	resp, err := http.Default().Client(ctx).
+	resp, err := Default().Client(ctx).
 		Headers(this.Header).
 		Timeout(time.Duration(this.Timeout) * time.Millisecond).
 		RetryCount(this.RetryCount).
@@ -92,7 +91,7 @@ func (this *MethodData) PostFormData(ctx context.Context, param map[string]strin
 		this.Header["Content-Type"] = "multipart/form-data"
 	}
 
-	resp, err := http.Default().Client(ctx).
+	resp, err := Default().Client(ctx).
 		Headers(this.Header).
 		Timeout(time.Duration(this.Timeout) * time.Millisecond).
 		RetryCount(this.RetryCount).
@@ -189,7 +188,7 @@ func (this *MethodData) Post(ctx context.Context, param interface{}, response in
 		return
 	}
 
-	resp, err := http.Default().Client(ctx).
+	resp, err := Default().Client(ctx).
 		Headers(this.Header).
 		Timeout(time.Duration(this.Timeout) * time.Millisecond).
 		RetryCount(this.RetryCount).

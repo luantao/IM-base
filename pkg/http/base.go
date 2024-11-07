@@ -1,8 +1,7 @@
-package curl
+package http
 
 import (
 	"errors"
-	"github.com/luantao/IM-base/pkg/http"
 )
 
 type MethodData struct {
@@ -11,7 +10,7 @@ type MethodData struct {
 	Timeout    int64 //单位:毫秒
 	RetryCount int
 	Header     map[string]string
-	Limit      http.LimitOption
+	Limit      LimitOption
 }
 
 func (this *MethodData) validation() error {
