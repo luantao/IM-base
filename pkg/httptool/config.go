@@ -13,7 +13,7 @@ const (
 	DefaultIdleConnTimeout     = 5 * time.Minute
 	DefaultMaxIdleConnsPerHost = 500
 	DefaultMaxIdleConns        = 2000
-	DefaultUserAgent           = "JRYG"
+	DefaultUserAgent           = "IM-HTTP-Client"
 )
 
 // Config 配置信息
