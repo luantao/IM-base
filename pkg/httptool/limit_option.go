@@ -1,4 +1,4 @@
-package http
+package httptool
 
 import (
 	"github.com/luantao/IM-base/pkg/config"

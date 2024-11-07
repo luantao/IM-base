@@ -1,4 +1,4 @@
-package http
+package httptool
 
 import (
 	"context"
@@ -141,7 +141,7 @@ func (this *MethodData) Get(ctx context.Context, param map[string]string, respon
 		return
 	}
 
-	resp, err := http.Default().Client(ctx).
+	resp, err := Default().Client(ctx).
 		Headers(this.Header).
 		Timeout(time.Duration(this.Timeout) * time.Millisecond).
 		RetryCount(this.RetryCount).

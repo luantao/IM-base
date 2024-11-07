@@ -1,4 +1,4 @@
-package http
+package httptool
 
 // ApiAuthOption 可选参数类型
 type ApiAuthOption func(*apiAuthOption)

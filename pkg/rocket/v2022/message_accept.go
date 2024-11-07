@@ -5,7 +5,6 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
-	"github.com/luantao/IM-base/pkg/http"
 	gohttp "net/http"
 	"os"
 	"strings"
@@ -74,7 +73,7 @@ func register(ctx context.Context, configNodeName string, logger *log.Mlog) erro
 		panic("environment variable env was not set")
 	}
 
-	req := http.Client(ctx).Request()
+	req := httptool.Client(ctx).Request()
 	req.FormData.Set("register_environment", env)
 	req.FormData.Set("register_version", os.Getenv("VER"))
 	req.FormData.Set("register_config_node_name", configNodeName)
