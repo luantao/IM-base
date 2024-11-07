@@ -1,8 +1,8 @@
 package time_utils
 
 import (
-	"MyIM/pkg/times"
 	"fmt"
+	"github.com/luantao/IM-base/pkg/times"
 	"time"
 )
 

@@ -26,10 +26,10 @@ import (
 	"strconv"
 	"strings"
 
-	"MyIM/pkg/rocketmq-client-go/internal/utils"
-	"MyIM/pkg/rocketmq-client-go/primitive"
-	"MyIM/pkg/rocketmq-client-go/rlog"
 	jsoniter "github.com/json-iterator/go"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/internal/utils"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/primitive"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/rlog"
 )
 
 type FindBrokerResult struct {

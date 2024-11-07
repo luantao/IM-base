@@ -1,7 +1,7 @@
 package auth
 
 import (
-	"MyIM/pkg/merror"
+	"github.com/luantao/IM-base/pkg/merror"
 )
 
 const (

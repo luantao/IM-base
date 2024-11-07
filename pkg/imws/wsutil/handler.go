@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"strconv"
 
-	"MyIM/pkg/imws"
 	"github.com/gobwas/pool/pbytes"
+	"github.com/luantao/IM-base/pkg/imws"
 )
 
 // ClosedError returned when peer has closed the connection with appropriate

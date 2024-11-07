@@ -1,9 +1,9 @@
 package http
 
 import (
-	"MyIM/pkg/config"
 	"context"
 	"errors"
+	"github.com/luantao/IM-base/pkg/config"
 	"net"
 	"net/http"
 	"net/url"

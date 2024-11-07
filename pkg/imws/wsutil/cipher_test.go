@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"MyIM/pkg/imws"
+	"github.com/luantao/IM-base/pkg/imws"
 )
 
 func TestCipherReader(t *testing.T) {

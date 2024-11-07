@@ -10,7 +10,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"MyIM/pkg/imws"
+	"github.com/luantao/IM-base/pkg/imws"
 )
 
 // TODO(gobwas): test NewWriterSize on edge cases for offset.

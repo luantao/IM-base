@@ -4,10 +4,10 @@ import (
 	"strings"
 	"time"
 
-	acm "MyIM/pkg/config"
+	acm "github.com/luantao/IM-base/pkg/config"
 
-	"MyIM/pkg/rocketmq-client-go/primitive"
-	"MyIM/pkg/rocketmq-client-go/producer"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/primitive"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/producer"
 )
 
 // ProducerOptions 根据配置信息构造生产者参数

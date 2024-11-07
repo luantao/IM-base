@@ -28,9 +28,9 @@ import (
 	gods_util "github.com/emirpasic/gods/utils"
 	"go.uber.org/atomic"
 
-	"MyIM/pkg/rocketmq-client-go/internal"
-	"MyIM/pkg/rocketmq-client-go/primitive"
-	"MyIM/pkg/rocketmq-client-go/rlog"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/internal"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/primitive"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/rlog"
 )
 
 const (

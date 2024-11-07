@@ -1,11 +1,11 @@
 package rocket
 
 import (
-	acm "MyIM/pkg/config"
-	log "MyIM/pkg/mlog"
-	"MyIM/pkg/rocketmq-client-go/consumer"
-	"MyIM/pkg/rocketmq-client-go/primitive"
 	"context"
+	acm "github.com/luantao/IM-base/pkg/config"
+	log "github.com/luantao/IM-base/pkg/mlog"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/consumer"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/primitive"
 	"github.com/spf13/cast"
 
 	"go.uber.org/zap"

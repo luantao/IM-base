@@ -1,8 +1,8 @@
 package imwsutil
 
 import (
-	"MyIM/pkg/imws"
 	"errors"
+	"github.com/luantao/IM-base/pkg/imws"
 	"io"
 	"io/ioutil"
 )

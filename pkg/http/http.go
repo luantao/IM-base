@@ -1,15 +1,15 @@
 package http
 
 import (
-	"MyIM/pkg/id"
-	xlimit "MyIM/pkg/limit"
-	varctx "MyIM/pkg/var/context"
-	varheader "MyIM/pkg/var/header"
 	"context"
 	"crypto/tls"
 	"errors"
 	sentinelbase "github.com/alibaba/sentinel-golang/core/base"
 	"github.com/go-resty/resty/v2"
+	"github.com/luantao/IM-base/pkg/id"
+	xlimit "github.com/luantao/IM-base/pkg/limit"
+	varctx "github.com/luantao/IM-base/pkg/var/context"
+	varheader "github.com/luantao/IM-base/pkg/var/header"
 	"net"
 	"net/http"
 	"time"

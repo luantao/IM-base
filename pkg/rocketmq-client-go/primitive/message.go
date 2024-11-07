@@ -28,7 +28,7 @@ import (
 	"sync"
 	"time"
 
-	"MyIM/pkg/rocketmq-client-go/internal/utils"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/internal/utils"
 )
 
 const (

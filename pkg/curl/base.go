@@ -1,8 +1,8 @@
 package curl
 
 import (
-	"MyIM/pkg/http"
 	"errors"
+	"github.com/luantao/IM-base/pkg/http"
 )
 
 type MethodData struct {

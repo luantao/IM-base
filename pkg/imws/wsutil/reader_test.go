@@ -7,7 +7,7 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"MyIM/pkg/imws"
+	"github.com/luantao/IM-base/pkg/imws"
 )
 
 // TODO(gobwas): test continuation discard.

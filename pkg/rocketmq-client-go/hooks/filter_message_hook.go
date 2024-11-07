@@ -15,7 +15,7 @@ limitations under the License.
 
 package hooks
 
-import "MyIM/pkg/rocketmq-client-go/primitive"
+import "github.com/luantao/IM-base/pkg/rocketmq-client-go/primitive"
 
 type FilterMessageContext struct {
 	ConsumerGroup string

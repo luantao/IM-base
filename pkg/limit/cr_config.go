@@ -1,8 +1,8 @@
 package limit
 
 import (
-	"MyIM/pkg/config"
 	"fmt"
+	"github.com/luantao/IM-base/pkg/config"
 
 	"github.com/alibaba/sentinel-golang/core/circuitbreaker"
 )

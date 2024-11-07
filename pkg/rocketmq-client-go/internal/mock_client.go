@@ -28,8 +28,8 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"MyIM/pkg/rocketmq-client-go/internal/remote"
-	"MyIM/pkg/rocketmq-client-go/primitive"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/internal/remote"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/primitive"
 )
 
 // MockInnerProducer is a mock of InnerProducer interface

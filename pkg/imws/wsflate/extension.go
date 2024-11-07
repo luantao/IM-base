@@ -3,8 +3,8 @@ package imwsflate
 import (
 	"bytes"
 
-	"MyIM/pkg/imws"
 	"github.com/gobwas/httphead"
+	"github.com/luantao/IM-base/pkg/imws"
 )
 
 // Extension contains logic of compression extension parameters negotiation

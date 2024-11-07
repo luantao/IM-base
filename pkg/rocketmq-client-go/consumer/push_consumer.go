@@ -28,15 +28,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	errors2 "MyIM/pkg/rocketmq-client-go/errors"
+	errors2 "github.com/luantao/IM-base/pkg/rocketmq-client-go/errors"
 
 	"github.com/pkg/errors"
 
-	"MyIM/pkg/rocketmq-client-go/internal"
-	"MyIM/pkg/rocketmq-client-go/internal/remote"
-	"MyIM/pkg/rocketmq-client-go/internal/utils"
-	"MyIM/pkg/rocketmq-client-go/primitive"
-	"MyIM/pkg/rocketmq-client-go/rlog"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/internal"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/internal/remote"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/internal/utils"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/primitive"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/rlog"
 )
 
 // In most scenarios, this is the mostly recommended usage to consume messages.

@@ -1,19 +1,19 @@
 package rocket
 
 import (
-	"MyIM/pkg/http"
 	"bytes"
 	"context"
 	"encoding/json"
 	"errors"
+	"github.com/luantao/IM-base/pkg/http"
 	gohttp "net/http"
 	"os"
 	"strings"
 	"sync"
 
-	acm "MyIM/pkg/config"
-	log "MyIM/pkg/mlog"
-	"MyIM/pkg/rocketmq-client-go/primitive"
+	acm "github.com/luantao/IM-base/pkg/config"
+	log "github.com/luantao/IM-base/pkg/mlog"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/primitive"
 
 	"go.uber.org/zap"
 )

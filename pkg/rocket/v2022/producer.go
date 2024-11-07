@@ -5,9 +5,9 @@ import (
 	"os"
 	"strings"
 
-	rocketmq "MyIM/pkg/rocketmq-client-go"
-	"MyIM/pkg/rocketmq-client-go/primitive"
-	rocket_producer "MyIM/pkg/rocketmq-client-go/producer"
+	rocketmq "github.com/luantao/IM-base/pkg/rocketmq-client-go"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/primitive"
+	rocket_producer "github.com/luantao/IM-base/pkg/rocketmq-client-go/producer"
 
 	"github.com/spf13/cast"
 )

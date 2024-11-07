@@ -24,8 +24,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"MyIM/pkg/rocketmq-client-go/primitive"
-	"MyIM/pkg/rocketmq-client-go/rlog"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/primitive"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/rlog"
 )
 
 type StatsManager struct {

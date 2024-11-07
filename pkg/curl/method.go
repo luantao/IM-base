@@ -1,11 +1,11 @@
 package curl
 
 import (
-	"MyIM/pkg/config"
-	"MyIM/pkg/http"
-	"MyIM/pkg/mlog"
 	"context"
 	"encoding/json"
+	"github.com/luantao/IM-base/config"
+	"github.com/luantao/IM-base/http"
+	"github.com/luantao/IM-base/pkg/mlog"
 	"go.uber.org/zap"
 	"strings"
 	"time"

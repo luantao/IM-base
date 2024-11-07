@@ -1,6 +1,6 @@
 package imwsutil
 
-import "MyIM/pkg/imws"
+import "github.com/luantao/IM-base/pkg/imws"
 
 // RecvExtension is an interface for clearing fragment header RSV bits.
 type RecvExtension interface {

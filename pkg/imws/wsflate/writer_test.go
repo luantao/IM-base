@@ -10,8 +10,8 @@ import (
 	"net/url"
 	"testing"
 
-	"MyIM/pkg/imws"
 	"github.com/gobwas/httphead"
+	"github.com/luantao/IM-base/pkg/imws"
 )
 
 func TestWriter(t *testing.T) {

@@ -21,10 +21,10 @@ import (
 	"context"
 	"time"
 
-	"MyIM/pkg/rocketmq-client-go/consumer"
-	"MyIM/pkg/rocketmq-client-go/internal"
-	"MyIM/pkg/rocketmq-client-go/primitive"
-	"MyIM/pkg/rocketmq-client-go/producer"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/consumer"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/internal"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/primitive"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/producer"
 )
 
 type Producer interface {

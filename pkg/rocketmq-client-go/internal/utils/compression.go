@@ -18,9 +18,9 @@ limitations under the License.
 package utils
 
 import (
-	"MyIM/pkg/rocketmq-client-go/errors"
 	"bytes"
 	"compress/zlib"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/errors"
 	"io/ioutil"
 	"sync"
 )

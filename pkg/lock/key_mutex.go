@@ -1,9 +1,9 @@
 package lock
 
 import (
-	"MyIM/pkg/cache"
-	"MyIM/pkg/config"
-	"MyIM/pkg/mlog"
+	"github.com/luantao/IM-base/pkg/cache"
+	"github.com/luantao/IM-base/pkg/config"
+	"github.com/luantao/IM-base/pkg/mlog"
 	gocache "github.com/patrickmn/go-cache"
 	"go.uber.org/zap"
 	"sync"

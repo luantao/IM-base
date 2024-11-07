@@ -1,9 +1,9 @@
 package limit
 
 import (
-	"MyIM/pkg/config"
-	"MyIM/pkg/mlog"
 	"errors"
+	"github.com/luantao/IM-base/pkg/config"
+	"github.com/luantao/IM-base/pkg/mlog"
 	"os"
 	"strings"
 	"sync"

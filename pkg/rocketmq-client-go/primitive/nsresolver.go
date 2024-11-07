@@ -26,7 +26,7 @@ import (
 	"strings"
 	"time"
 
-	"MyIM/pkg/rocketmq-client-go/rlog"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/rlog"
 )
 
 // resolver for nameserver, monitor change of nameserver and notify client

@@ -1,10 +1,10 @@
 package imwsutil
 
 import (
-	"MyIM/pkg/imws"
 	"bufio"
 	"bytes"
 	"context"
+	"github.com/luantao/IM-base/pkg/imws"
 	"io"
 	"io/ioutil"
 	"net"

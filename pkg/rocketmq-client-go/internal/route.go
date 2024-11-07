@@ -18,8 +18,8 @@ limitations under the License.
 package internal
 
 import (
-	"MyIM/pkg/rocketmq-client-go/errors"
 	"context"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/errors"
 	"math/rand"
 	"sort"
 	"strconv"
@@ -31,10 +31,10 @@ import (
 	jsoniter "github.com/json-iterator/go"
 	"github.com/tidwall/gjson"
 
-	"MyIM/pkg/rocketmq-client-go/internal/remote"
-	"MyIM/pkg/rocketmq-client-go/internal/utils"
-	"MyIM/pkg/rocketmq-client-go/primitive"
-	"MyIM/pkg/rocketmq-client-go/rlog"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/internal/remote"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/internal/utils"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/primitive"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/rlog"
 )
 
 const (

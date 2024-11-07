@@ -52,7 +52,7 @@ package main
 import (
 	"net/http"
 
-	"MyIM/pkg/imws"
+	"github.com/luantao/IM-base/pkg/imws"
 	"github.com/gobwas/ws/wsutil"
 )
 
@@ -88,7 +88,7 @@ import (
 	"net/http"
 	"io"
 
-	"MyIM/pkg/imws"
+	"github.com/luantao/IM-base/pkg/imws"
 	"github.com/gobwas/ws/wsutil"
 )
 
@@ -169,7 +169,7 @@ import (
 	"net"
 	"io"
 
-	"MyIM/pkg/imws"
+	"github.com/luantao/IM-base/pkg/imws"
 )
 
 func main() {
@@ -243,7 +243,7 @@ import (
 	"net"
 	"log"
 
-	"MyIM/pkg/imws"
+	"github.com/luantao/IM-base/pkg/imws"
 )
 
 func main() {
@@ -291,7 +291,7 @@ import (
 	"runtime"
 
 	"github.com/gobwas/httphead"
-	"MyIM/pkg/imws"
+	"github.com/luantao/IM-base/pkg/imws"
 )
 
 func main() {
@@ -372,7 +372,7 @@ import (
 	"log"
 	"net"
 
-	"MyIM/pkg/imws"
+	"github.com/luantao/IM-base/pkg/imws"
 	"github.com/gobwas/ws/wsflate"
 )
 

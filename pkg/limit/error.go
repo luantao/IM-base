@@ -1,8 +1,8 @@
 package limit
 
 import (
-	"MyIM/pkg/rediss"
 	sentinelbase "github.com/alibaba/sentinel-golang/core/base"
+	"github.com/luantao/IM-base/pkg/rediss"
 	"time"
 )
 

@@ -1,10 +1,10 @@
 package captcha
 
 import (
-	"MyIM/pkg/rediss"
 	"context"
 	"errors"
 	"fmt"
+	"github.com/luantao/IM-base/pkg/rediss"
 	"github.com/redis/go-redis/v9"
 	"log"
 	"time"

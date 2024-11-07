@@ -18,7 +18,7 @@ limitations under the License.
 package primitive
 
 import (
-	"MyIM/pkg/rocketmq-client-go/errors"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/errors"
 	"regexp"
 	"strings"
 )

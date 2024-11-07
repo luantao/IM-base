@@ -1,13 +1,13 @@
 package http
 
 import (
-	"MyIM/pkg/auth"
-	xlimit "MyIM/pkg/limit"
-	"MyIM/pkg/mlog"
-	"MyIM/pkg/rediss"
-	varheader "MyIM/pkg/var/header"
 	"errors"
 	"fmt"
+	"github.com/luantao/IM-base/pkg/auth"
+	xlimit "github.com/luantao/IM-base/pkg/limit"
+	"github.com/luantao/IM-base/pkg/mlog"
+	"github.com/luantao/IM-base/pkg/rediss"
+	varheader "github.com/luantao/IM-base/pkg/var/header"
 	"strings"
 
 	sentinel "github.com/alibaba/sentinel-golang/api"

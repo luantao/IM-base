@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"MyIM/pkg/imws"
+	"github.com/luantao/IM-base/pkg/imws"
 )
 
 // DefaultHelper is a default helper instance holding standard library's

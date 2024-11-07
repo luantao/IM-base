@@ -1,11 +1,11 @@
 package auth
 
 import (
-	"MyIM/pkg/id"
-	"MyIM/pkg/merror"
 	"crypto/sha1"
 	"encoding/hex"
 	"fmt"
+	"github.com/luantao/IM-base/pkg/id"
+	"github.com/luantao/IM-base/pkg/merror"
 	"strings"
 	"time"
 )

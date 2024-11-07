@@ -1,8 +1,8 @@
 package mlog
 
 import (
-	"MyIM/pkg/config"
 	"context"
+	"github.com/luantao/IM-base/pkg/config"
 	"strings"
 	"sync"
 

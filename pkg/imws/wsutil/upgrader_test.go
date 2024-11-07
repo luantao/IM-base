@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"testing"
 
-	"MyIM/pkg/imws"
+	"github.com/luantao/IM-base/pkg/imws"
 )
 
 func TestDebugUpgrader(t *testing.T) {

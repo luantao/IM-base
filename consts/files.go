@@ -1,7 +1,7 @@
 package consts
 
 import (
-	"MyIM/pkg/config"
+	"github.com/luantao/IM-base/pkg/config"
 )
 
 // ImageFileType 图片类型,对应相应的路径

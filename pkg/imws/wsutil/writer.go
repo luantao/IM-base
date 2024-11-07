@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"io"
 
-	"MyIM/pkg/imws"
 	"github.com/gobwas/pool"
 	"github.com/gobwas/pool/pbytes"
+	"github.com/luantao/IM-base/pkg/imws"
 )
 
 // DefaultWriteBuffer contains size of Writer's default buffer. It used by

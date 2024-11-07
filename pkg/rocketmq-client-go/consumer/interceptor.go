@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"time"
 
-	"MyIM/pkg/rocketmq-client-go/internal"
-	"MyIM/pkg/rocketmq-client-go/internal/utils"
-	"MyIM/pkg/rocketmq-client-go/primitive"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/internal"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/internal/utils"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/primitive"
 )
 
 // WithTrace support rocketmq trace: https://github.com/apache/rocketmq/wiki/RIP-6-Message-Trace.

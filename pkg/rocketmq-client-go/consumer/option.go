@@ -21,9 +21,9 @@ import (
 	"strings"
 	"time"
 
-	"MyIM/pkg/rocketmq-client-go/hooks"
-	"MyIM/pkg/rocketmq-client-go/internal"
-	"MyIM/pkg/rocketmq-client-go/primitive"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/hooks"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/internal"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/primitive"
 )
 
 type consumerOptions struct {

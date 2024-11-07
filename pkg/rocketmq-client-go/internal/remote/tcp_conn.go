@@ -25,7 +25,7 @@ import (
 	"go.uber.org/atomic"
 )
 
-// TODO: Adding TCP Connections Pool, https://MyIM/pkg/rocketmq-client-go/issues/298
+// TODO: Adding TCP Connections Pool, https://github.com/luantao/IM-base/pkg/rocketmq-client-go/issues/298
 type tcpConnWrapper struct {
 	net.Conn
 	sync.Mutex

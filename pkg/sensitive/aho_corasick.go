@@ -1,10 +1,10 @@
 package sensitive
 
 import (
-	"MyIM/model/dao"
-	"MyIM/model/db"
 	"context"
 	"github.com/BobuSumisu/aho-corasick"
+	"github.com/luantao/IM-base/model/dao"
+	"github.com/luantao/IM-base/model/db"
 	"regexp"
 )
 

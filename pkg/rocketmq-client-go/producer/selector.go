@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"MyIM/pkg/rocketmq-client-go/primitive"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/primitive"
 )
 
 type QueueSelector interface {

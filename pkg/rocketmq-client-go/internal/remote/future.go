@@ -18,8 +18,8 @@ limitations under the License.
 package remote
 
 import (
-	"MyIM/pkg/rocketmq-client-go/errors"
 	"context"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/errors"
 	"sync"
 )
 

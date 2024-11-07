@@ -1,9 +1,9 @@
 package rediss
 
 import (
-	"MyIM/pkg/config"
 	"context"
 	"fmt"
+	"github.com/luantao/IM-base/pkg/config"
 	"github.com/redis/go-redis/v9"
 	"log"
 	"sync"

@@ -1,7 +1,7 @@
 package rocket
 
 import (
-	"MyIM/pkg/rocketmq-client-go/producer"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/producer"
 )
 
 // NewSelector 选择分区算法

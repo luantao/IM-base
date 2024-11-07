@@ -5,7 +5,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"MyIM/pkg/imws"
+	"github.com/luantao/IM-base/pkg/imws"
 )
 
 // Message represents a message from peer, that could be presented in one or

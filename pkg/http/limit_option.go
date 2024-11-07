@@ -1,8 +1,8 @@
 package http
 
 import (
-	"MyIM/pkg/config"
-	"MyIM/pkg/rediss"
+	"github.com/luantao/IM-base/pkg/config"
+	"github.com/luantao/IM-base/pkg/rediss"
 	"strings"
 	"time"
 )

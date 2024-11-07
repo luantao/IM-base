@@ -1,7 +1,7 @@
 package limit
 
 import (
-	"MyIM/pkg/mlog"
+	"github.com/luantao/IM-base/pkg/mlog"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

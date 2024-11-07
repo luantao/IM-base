@@ -29,11 +29,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	errors2 "MyIM/pkg/rocketmq-client-go/errors"
-	"MyIM/pkg/rocketmq-client-go/internal/remote"
-	"MyIM/pkg/rocketmq-client-go/internal/utils"
-	"MyIM/pkg/rocketmq-client-go/primitive"
-	"MyIM/pkg/rocketmq-client-go/rlog"
+	errors2 "github.com/luantao/IM-base/pkg/rocketmq-client-go/errors"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/internal/remote"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/internal/utils"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/primitive"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/rlog"
 )
 
 const (
@@ -136,7 +136,7 @@ func (opt *ClientOptions) String() string {
 		opt.InstanceName, opt.UnitMode, opt.UnitName, opt.VIPChannelEnabled)
 }
 
-//go:generate mockgen -source client.go -destination mock_client.go -self_package MyIM/pkg/rocketmq-client-go/internal  --package internal RMQClient
+//go:generate mockgen -source client.go -destination mock_client.go -self_package github.com/luantao/IM-base/pkg/rocketmq-client-go/internal  --package internal RMQClient
 type RMQClient interface {
 	Start()
 	Shutdown()

@@ -23,8 +23,8 @@ package internal
 import (
 	reflect "reflect"
 
-	primitive "MyIM/pkg/rocketmq-client-go/primitive"
 	gomock "github.com/golang/mock/gomock"
+	primitive "github.com/luantao/IM-base/pkg/rocketmq-client-go/primitive"
 )
 
 // MockNamesrvs is a mock of Namesrvs interface

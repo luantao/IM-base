@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"testing"
 
-	"MyIM/pkg/imws"
+	"github.com/luantao/IM-base/pkg/imws"
 )
 
 func TestControlHandler(t *testing.T) {

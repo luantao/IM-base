@@ -1,9 +1,9 @@
 package timeuuid
 
 import (
-	"MyIM/pkg/mlog"
 	"context"
 	"github.com/gofrs/uuid"
+	"github.com/luantao/IM-base/pkg/mlog"
 	"time"
 )
 

@@ -4,10 +4,10 @@ import (
 	"strings"
 	"time"
 
-	acm "MyIM/pkg/config"
+	acm "github.com/luantao/IM-base/pkg/config"
 
-	"MyIM/pkg/rocketmq-client-go/consumer"
-	"MyIM/pkg/rocketmq-client-go/primitive"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/consumer"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/primitive"
 )
 
 // ConsumerOptions 根据配置信息构造消费者参数

@@ -1,9 +1,9 @@
 package mlog
 
 import (
-	"MyIM/pkg/config"
 	"context"
 	"fmt"
+	"github.com/luantao/IM-base/pkg/config"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"

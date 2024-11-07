@@ -1,12 +1,12 @@
 package utils
 
 import (
-	"MyIM/pkg/config"
-	"MyIM/pkg/json"
 	"context"
 	"errors"
 	"fmt"
 	"github.com/go-resty/resty/v2"
+	"github.com/luantao/IM-base/pkg/config"
+	"github.com/luantao/IM-base/pkg/json"
 	"io"
 	"strings"
 	"time"

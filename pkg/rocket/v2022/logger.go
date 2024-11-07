@@ -3,8 +3,8 @@ package rocket
 import (
 	"sync"
 
-	log "MyIM/pkg/mlog"
-	"MyIM/pkg/rocketmq-client-go/rlog"
+	log "github.com/luantao/IM-base/pkg/mlog"
+	"github.com/luantao/IM-base/pkg/rocketmq-client-go/rlog"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )
