@@ -11,9 +11,9 @@ import (
 	"sync"
 
 	acm "github.com/luantao/IM-base/pkg/config"
+	"github.com/luantao/IM-base/pkg/httptool"
 	log "github.com/luantao/IM-base/pkg/mlog"
 	"github.com/luantao/IM-base/pkg/rocketmq-client-go/primitive"
-
 	"go.uber.org/zap"
 )
 
